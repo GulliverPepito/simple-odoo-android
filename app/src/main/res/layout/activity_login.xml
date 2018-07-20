@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#68b581"
+    tools:context=".activities.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="false"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgLogo"
+            android:src="@drawable/eiqui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/txtError"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_light"
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editHost"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/odoo_host_name"
+            android:textColor="#eee"
+            android:textColorHint="#eee" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editDBName"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/db_name"
+            android:textColor="#eee"
+            android:textColorHint="#eee" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editLogin"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/login"
+            android:textColor="#eee"
+            android:textColorHint="#eee"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editPassword"
+            android:inputType="textPassword"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/password"
+            android:textColor="#eee"
+            android:textColorHint="#eee" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/btn_login_enter"
+            android:id="@+id/btnLogin"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/credits"
+        android:id="@+id/txtCredits"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom|center"
+        android:textSize="8dp"
+        android:textColor="#eee" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#68b581</color>
+    <color name="colorPrimaryDark">#538b65</color>
+    <color name="colorAccent">#4089ff</color>
+
+    <color name="lighter_color">#FFAAAAAA</color>
+    <color name="normal_color">#FF333333</color>
+
+    <color name="message_owner">#effdde</color>
+
+    <color name="old_item">#eae2d8</color>
+</resources>

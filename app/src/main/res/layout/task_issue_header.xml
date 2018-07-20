@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:transitionName="@string/transition_task_issue_detail"
+    >
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textProjectLetter"
+        android:gravity="center"
+        android:textSize="42sp"
+        android:padding="8dp"
+        style="@style/OverlayText"
+        android:background="#001fbb"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTitle"
+            android:textSize="20sp"
+            android:text="EL TITULO"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textID"
+            android:text="#000"
+            android:layout_marginRight="4dp"
+            android:gravity="bottom|right" />
+
+    </LinearLayout>
+
+</LinearLayout>

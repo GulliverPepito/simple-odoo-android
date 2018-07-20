@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eiqui</string>
+    <string name="action_refresh">Refrescar</string>
+    <string name="action_settings">Opciones</string>
+    <string name="activities">Actividades</string>
+    <string name="btnLoginEnter">Entrar</string>
+    <string name="card_issues">Incidencias</string>
+    <string name="card_tasks">Tareas</string>
+    <string name="contact">Contacto</string>
+    <string name="description">Descripción</string>
+    <string name="details">Detalles</string>
+    <string name="issues">Incidencias</string>
+    <string name="loading_data">Cargando Información...</string>
+    <string name="loading_messages">Cargando Mensajes...</string>
+    <string name="login">Login</string>
+    <string name="loginInvalid">Contraseña o Login Incorrectos</string>
+    <string name="messages">Mensajes</string>
+    <string name="no_issues">Buen trabajo! No tienes incidencias abiertas :)</string>
+    <string name="no_tasks">Buen trabajo! No tienes tareas por hacer :)</string>
+    <string name="password">Contraseña</string>
+    <string name="pref_title_uid">Identificación de Usuario</string>
+    <string name="pref_uid_action">ID Usuario</string>
+    <string name="pref_uid_summary">El UID usado en las comunicaciones</string>
+    <string name="project_name">Nombre del Proyecto</string>
+    <string name="reviewer">Revisor</string>
+    <string name="task_assigned">Tarea Asignada</string>
+    <string name="tasks">Tareas</string>
+    <string name="title_activity_issue">eiqui - incidencias</string>
+    <string name="title_activity_task">eiqui - tareas</string>
+    <string name="undefined">Sin Definir</string>
+    <string name="projects">Proyectos</string>
+    <string name="old_tasks" formatted="false">Tiene %d tareas con más de %d meses de antigüedad!</string>
+    <string name="old_issues" formatted="false">Tiene %d incidencias con más de %d semanas de antigüedad!</string>
+    <string name="oops_error">Oops! Error: %s</string>
+    <string name="oops_error_undefined">Oops! Error: Indefinido</string>
+    <string name="notification_new_message">Tiene %d nuevos mensajes</string>
+</resources>
