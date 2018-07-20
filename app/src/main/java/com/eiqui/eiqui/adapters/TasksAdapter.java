@@ -1,3 +1,4 @@
+// Copyright 2018 - Alexandre Díaz - <dev@redneboa.es>
 package com.eiqui.eiqui.adapters;
 
 import android.support.v7.widget.RecyclerView;

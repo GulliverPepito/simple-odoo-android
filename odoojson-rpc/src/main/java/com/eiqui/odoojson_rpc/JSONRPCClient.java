@@ -1,3 +1,4 @@
+// Copyright 2018 - Alexandre Díaz - <dev@redneboa.es>
 package com.eiqui.odoojson_rpc;
 
 import android.util.Log;
@@ -41,6 +42,7 @@ public class JSONRPCClient {
      */
     private static void trustAllHosts() {
         // Create a trust manager that does not validate certificate chains
+        // FIXME: NOT USE IN PRODUCTION!!
         TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
             public X509Certificate[] getAcceptedIssuers() {
                 return new X509Certificate[] {};

@@ -1,3 +1,4 @@
+// Copyright 2018 - Alexandre Díaz - <dev@redneboa.es>
 package com.eiqui.eiqui.activities;
 
 import android.app.job.JobInfo;
